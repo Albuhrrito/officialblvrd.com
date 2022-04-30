@@ -1,17 +1,33 @@
-/* Style the navbar */
-body {
-    background-color: #202128;
+
+@font-face {
+  font-family: Coldiac;
+  src: url("Coldiac.otf") format("opentype");
 }
-#navbar img {
-    width: 100%;
-    max-width: 400px;
+
+@font-face {
+  font-family: Coldiac;
+  font-weight: bold;
+  src: url("Coldiac.otf") format("opentype");
+}
+
+img {
+  margin: auto;
+  position: absolute;
+  width: 5%;
   height: auto;
-    border-radius: 20% !important;
+  padding: 10px;
 }
+
+body {
+    background-image: url("BLVRD2.png");
+    background-color: #171717;
+    font-family: Coldiac;
+}
+
 #navbar {
     overflow: hidden;
-    background-color: #202128;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #171717;
+    font-family: Coldiac;
     font-size: 30px;
 }
 
@@ -25,9 +41,9 @@ body {
     text-decoration: none;
 }
 #navbar a:hover {
-    transform: scale(1.2);
-    transition-delay: 1ms;
-    font-size: 50px;
+    transform: scale(1.1);
+    transition-delay: 10ms;
+    text-decoration: underline;
 }
 
 /* Page content */
