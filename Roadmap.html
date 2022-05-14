@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+    Filename: index.html
+    Author: Albert Youssef
+    Date: 10/16/2021
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Official Blvrd</title>
+   <link rel="icon" href="Transparent-blvrd.png">
+   <link rel="stylesheet" href="Roadmap.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap" rel="stylesheet">
+   <!--
+   <link rel="stylesheet" media="only screen and (max-width: 800px)" href="mobileBase.css" async>
+   <link rel="stylesheet" media="only screen and (min-width: 801px)" href="base.css" async>
+   -->
+</head>
+<body>
+  <!--
+  <div class="container" onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  -->
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+  </script>
+  
+  <div id="navbar">
+    <a href="index.html"></a>
+    <a href="About.html">ABOUT</a>
+    <a href="Roadmap.html">ROADMAP</a>
+    <a class="url" href="Roadmap.html">COLLECTION</a>
+    <a href="index.html">HOME</a>
+    <img src="Transparent-blvrd.png" alt="">
+  </div>
+
+  <div class="line-container">
+    <svg viewBox="0 0 120 1387" fill="none" preserveAspectRatio="xMidYMax meet">
+        <path d="M60.5 6L11 55.5L60.5 105V425.5L108.5 473.5L60.5 521.5V839.5L11 889L60.5 938.5V1285.5L108.5 1333.5L60.5 1381.5" stroke="#EABD1D" stroke-width="15"/>
+    </svg>
+    
+        
+               
+  </div>
+  <h2>ROADMAP</h2>
+  <svg class="arrows">
+    <path class="a1" d="M0 0 L30 32 L60 0"></path>
+    <path class="a2" d="M0 20 L30 52 L60 20"></path>
+    <path class="a3" d="M0 40 L30 72 L60 40"></path>
+  </svg>
+  <div class = "container">
+    <div class = "row1">
+      <h1 id="r1">INITIAL LAUNCH</h1>
+      <div class = "column1">
+        <p id="r2">OUR PRIMARY GOAL IS TO
+          LAUNCH OUR BLVRD OF BAGS
+          COLLECTION OF 108 LUXURIOUS,
+          HAND-DRAWN NET BAGS.
+          WITH THE REMARKABLY LOW
+          CIRCULATION, WE ESTIMATE THE
+          PROJECTED VALUE OF EACH BAG
+          TO INCREASE SIGNIFICANTLY.</p>
+      </div>
+    </div>
+    <div class = "row2">
+      <h1 id="r1">DEVELOPMENT</h1>
+      <div class = "column2">
+        <p id="r2">
+          WE SHIFT OUR AIM TOWARDS
+          DEVELOPING VIRTUAL METAVERSE
+          PRODUCTS. FOR EXAMPLE, WE
+          WANT ANYONE WHO PURCHASED
+          ONE OF OUR NET BAGS TO BE
+          ABLE TO WEAR AND SHOW IT OFF
+          IN THE METAVERSE. WE MAY ALSO
+          LAUNCH NEW COLLECTIONS.</p>
+      </div>
+    </div>
+    <div class = "row3">
+      <h1 id="r1">METAVERSE</h1>
+      <div class = "column3">
+        <p id="r2">
+          ONCE THE METAVERSE LAUNCHES,
+          OUR GOAL IS TO PURCHASE
+          DIGITAL LAND TO BUILD A LUXURY
+          STORE. THIS STORE WILL FEATURE
+          THE VIRTUAL PRODUCTS WE
+          DEVELOPED. WE AIM TO ALLOW
+          ANYONE WHO OWNS OUR NFTS TO
+          REDEEM A VIRTUAL PRODUCT.</p>
+      </div>
+    </div>
+    <div class = "row4">
+      <h1 id="r1">EXPANSION</h1>
+      <div class = "column4">
+        <p id="r2">AS THE METAVERSE EXPANDS,
+          SO WILL WE, CREATING MORE
+          STORES, EXPANDING TO NEW
+          LOCATIONS, AND DEVELOPING
+          NEW LINES OF PRODUCTS, AS
+          WE BECOME THE MOST
+          PROMINENT DIGITAL LUXURY
+          BRAND IN THE WORLD.</p>
+      </div>
+    </div>
+  </div>
+  
+  <section class="one">
+    <h6 class="scroll" data-rate=".4" data-direction="vertical"></h6>
+  </section>
+
+  <section class="two">
+    <h1 class="scroll" data-rate=".2" data-direction="vertical"></h1>
+  </section>
+
+  <script>
+
+    let path = document.querySelector('path')
+    let pathLength = path.getTotalLength()
+
+    path.style.strokeDasharray = pathLength + ' ' + pathLength;
+
+    path.style.strokeDashoffset = pathLength;
+
+    window.addEventListener('scroll', ()=> {
+      var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+    
+      var drawLength = pathLength * scrollPercentage;
+
+      path.style.strokeDashoffset = pathLength - drawLength;
+    })
+
+  </script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+  </style>
+</body>
