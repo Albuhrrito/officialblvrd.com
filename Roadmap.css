@@ -18,6 +18,11 @@ img {
     margin-left: 10px;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 body {
     height: 170vh;
     margin: 0;

@@ -28,6 +28,11 @@ body {
     font-family: Coldiac;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 #navbar {
     overflow: hidden;
     background-color: #171717;

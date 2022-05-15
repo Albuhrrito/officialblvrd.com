@@ -76,6 +76,11 @@ h3 {
     border-right: 10px solid #fff;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 p {
     margin-top: 50%;
     color: #595959;
