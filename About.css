@@ -10,21 +10,56 @@
 }
 
 body {
-    height: 500vh;
+    height: 200vh;
     margin: 0;
-    background-color: #171717;
+    background-color: #f5f5f5;
     font-family: Coldiac;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .url {
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
+.logo {
+    margin: auto;
+    position: absolute;
+    width: 6%;
+    height: auto;
+    padding: 10px;
+}
+  
+.open-sea {
+    max-width: 22px;
+    max-height: 100px;
+}
+
+.insta {
+    max-width: 22px;
+    max-height: 100px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 #navbar {
     overflow: hidden;
-    background-color: #171717;
+    background-color: #f7f7f7;
     font-family: Coldiac;
-    font-size: 20px;
+    font-size: 21px;
     margin-right: 5%;
 }
 
@@ -38,13 +73,22 @@ body {
     margin-right: 10px;
     margin-top: 10px;
     text-decoration: none;
-    background-color: #e2ba2d;
-    border-radius: .5rem;
 }
+
 #navbar a:hover {
     transform: scale(1.1);
     transition-delay: 10ms;
     text-decoration: underline;
+}
+
+#navbar .active {
+    background-color: #fff;
+    border-radius: .5rem;
+    border-style: double;
+}
+
+.url {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 img {
