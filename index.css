@@ -30,7 +30,7 @@ img  {
 }
 
 body {
-    background-color: #f5f5f5;
+    background-color: #f7f7f7;
     font-family: Coldiac;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
@@ -64,7 +64,7 @@ body {
   overflow: hidden;
   background-color: #f7f7f7;
   font-family: Coldiac;
-  font-size: 21px;
+  font-size: 20px;
   margin-right: 5%;
 }
 
@@ -77,6 +77,7 @@ body {
   padding: 14px;
   margin-right: 10px;
   margin-top: 10px;
+  margin-bottom: 10px;
   text-decoration: none;
 }
 
