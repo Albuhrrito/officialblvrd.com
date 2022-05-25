@@ -41,7 +41,7 @@
     <a href=""><img class="open-sea" src="Logomark-Transparent White.png" alt=""></a>
     <a href=""><i class="fab fa-discord"></i></a>
     <a class="url" href="index.html">COLLECTION</a>
-    <a href="About.html">CREDO</a>
+    <a href="Credo.html">CREDO</a>
     <a class="active" href="Roadmap.html">ROADMAP</a>
     <a href="index.html">HOME</a>
     <img class="logo" src="TransparentBLVRD (1).png" alt="">
@@ -54,6 +54,86 @@
   </div>
   -->
   <h2>ROADMAP</h2>
+  <div class="contain">
+  <!-- Trigger/Open The Modal -->
+    <button id="button1" class="openmodal myBtn">
+      <h4>01</h4>
+      INITIAL LAUNCH</button>
+  
+    <!-- The Modal -->
+    <div id="myModal" class="modal myModal">
+  
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 class="launch">INITIAL LAUNCH</h3>
+        <p>OUR PRIMARY GOAL IS TO LAUNCH OUR BLVRD OF BAGS COLLECTION OF 108 LUXURIOUS, HAND-DRAWN NET BAGS. WITH THE REMARKABLY LOW CIRCULATION, WE ESTIMATE THE PROJECTED VALUE OF EACH BAG TO INCREASE SIGNIFICANTLY.</p>
+      </div>
+    </div>
+    <button id="button2" class="openmodal myBtn">
+      <h4>02</h4>
+      DEVELOPMENT</button>
+  
+    <!-- The Modal -->
+    <div id="myModal" class="modal myModal">
+  
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 class="dev">DEVELOPMENT</h3>
+        <p>WE SHIFT OUR AIM TOWARDS DEVELOPING VIRTUAL METAVERSE PRODUCTS. FOR EXAMPLE, WE WANT ANYONE WHO PURCHASED ONE OF OUR NET BAGS TO BE ABLE TO WEAR AND SHOW IT OFF IN THE METAVERSE. WE MAY ALSO LAUNCH NEW COLLECTIONS.</p>
+      </div>
+    </div>
+  <button id="button3" class="openmodal myBtn">
+  <h4>03</h4>
+  METAVERSE</button>
+  
+  <!-- The Modal -->
+  <div id="myModal" class="modal myModal">
+  
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3 class="meta">METAVERSE</h3>
+    <p>ONCE THE METAVERSE LAUNCHES, OUR GOAL IS TO PURCHASE DIGITAL LAND TO BUILD A LUXURY STORE. THIS STORE WILL FEATURE THE VIRTUAL PRODUCTS WE DEVELOPED. WE AIM TO ALLOW ANYONE WHO OWNS OUR NFTS TO REDEEM A VIRTUAL PRODUCT.</p>
+  </div>
+  </div>
+  <button id="button4" class="openmodal myBtn">
+    <h4>04</h4>
+    EXPANSION</button>
+  
+  <!-- The Modal -->
+  <div id="myModal" class="modal myModal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 class="exp">EXPANSION</h3>
+      <p>ONCE THE METAVERSE LAUNCHES, OUR GOAL IS TO PURCHASE DIGITAL LAND TO BUILD A LUXURY STORE. THIS STORE WILL FEATURE THE VIRTUAL PRODUCTS WE DEVELOPED. WE AIM TO ALLOW ANYONE WHO OWNS OUR NFTS TO REDEEM A VIRTUAL PRODUCT.</p>
+    </div>
+  </div>
+  </div>
+  
+  <script>
+  
+  // Get the modal
+  var modals = document.getElementsByClassName('modal');
+  // Get the button that opens the modal
+  var btns = document.getElementsByClassName("openmodal");
+  var spans=document.getElementsByClassName("close");
+  for(let i=0;i<btns.length;i++){
+   btns[i].onclick = function() {
+      modals[i].style.display = "block";
+   }
+  }
+  for(let i=0;i<spans.length;i++){
+    spans[i].onclick = function() {
+       modals[i].style.display = "none";
+    }
+  }
+  </script>
+
+</script>
   <!--
   <svg class="arrows">
     <path class="a1" d="M0 0 L30 32 L60 0"></path>
@@ -61,54 +141,6 @@
     <path class="a3" d="M0 40 L30 72 L60 40"></path>
   </svg>
   -->
-  <div class = "container">
-    <div class = "row">
-      <div class = "column">
-        <p id="r2">OUR PRIMARY GOAL IS TO
-          LAUNCH OUR BLVRD OF BAGS
-          COLLECTION OF 108 LUXURIOUS,
-          HAND-DRAWN NET BAGS.
-          WITH THE REMARKABLY LOW
-          CIRCULATION, WE ESTIMATE THE
-          PROJECTED VALUE OF EACH BAG
-          TO INCREASE SIGNIFICANTLY.</p>
-        </div>
-      <div class = "column">
-        <p id="r2">
-          WE SHIFT OUR AIM TOWARDS
-          DEVELOPING VIRTUAL METAVERSE
-          PRODUCTS. FOR EXAMPLE, WE
-          WANT ANYONE WHO PURCHASED
-          ONE OF OUR NET BAGS TO BE
-          ABLE TO WEAR AND SHOW IT OFF
-          IN THE METAVERSE. WE MAY ALSO
-          LAUNCH NEW COLLECTIONS.</p>
-      </div>
-    </div>
-    <div class = "row">
-      <div class = "column">
-        <p id="r2">
-          ONCE THE METAVERSE LAUNCHES,
-          OUR GOAL IS TO PURCHASE
-          DIGITAL LAND TO BUILD A LUXURY
-          STORE. THIS STORE WILL FEATURE
-          THE VIRTUAL PRODUCTS WE
-          DEVELOPED. WE AIM TO ALLOW
-          ANYONE WHO OWNS OUR NFTS TO
-          REDEEM A VIRTUAL PRODUCT.</p>
-      </div>
-      <div class = "column">
-        <p id="r2">AS THE METAVERSE EXPANDS,
-          SO WILL WE, CREATING MORE
-          STORES, EXPANDING TO NEW
-          LOCATIONS, AND DEVELOPING
-          NEW LINES OF PRODUCTS, AS
-          WE BECOME THE MOST
-          PROMINENT DIGITAL LUXURY
-          BRAND IN THE WORLD.</p>
-      </div>
-    </div>
-  </div>
   <!--<div class = "container-cover">
     <div class = "row-cover">
       <div class = "column-cover">

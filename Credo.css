@@ -10,7 +10,7 @@
 }
 
 body {
-    height: 200vh;
+    height: 50vh;
     margin: 0;
     background-color: #f7f7f7;
     font-family: Coldiac;
@@ -32,12 +32,12 @@ body {
 }
   
 .open-sea {
-    max-width: 22px;
+    max-width: 20px;
     max-height: 100px;
 }
 
 .insta {
-    max-width: 22px;
+    max-width: 20px;
     max-height: 100px;
 }
 
@@ -59,7 +59,7 @@ body {
     overflow: hidden;
     background-color: #f7f7f7;
     font-family: Coldiac;
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 5%;
 }
 
@@ -92,33 +92,26 @@ body {
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
-img {
-    margin: auto;
-    position: absolute;
-    width: 5%;
-    height: auto;
-    padding: 10px;
-}
-
 h2 {
-    margin-top: 15%;
-    font-size: 10vw;
+    margin-top: 5%;
+    font-size: 5vw;
     text-align: center;
     color: gold;
+    text-shadow: 2px 2px black;
 }
 
 h3 {
     margin-top: 5%;
     font-size: 6vw;
     text-align: center;
-    color: #d9d9d9;
+    color: #9a9a9a;
 }
 
 .container {
     margin-left: 17%;
-    width: 1200px;
-    border-left: 10px solid #fff;
-    border-right: 10px solid #fff;
+    width: 65%;
+    border-left: 10px solid #595959;
+    border-right: 10px solid #595959;
 }
 
 .dark-mode {
@@ -127,7 +120,7 @@ h3 {
 }
 
 p {
-    margin-top: 50%;
+    margin-top: 150px;
     color: #595959;
     font-size: 4vh;
     text-align: center;
@@ -181,11 +174,4 @@ html {
 .arrows path.a3 { 
     animation-delay:0s;
     -webkit-animation-delay:0s; /* Safari / Chrome */
-}
-
-svg {
-    display: inline-block;
-    height: 40%;
-    width: 4%;
-    padding-top: 200px;
 }
