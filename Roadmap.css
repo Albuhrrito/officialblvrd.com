@@ -37,11 +37,14 @@ body {
     margin: 0;
     background-color: #f7f7f7;
     font-family: Coldiac;
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
+h4 {
+    font-family: Coldiac;
+}
 
 h2 {
     margin-top: 5%;
@@ -164,13 +167,12 @@ svg {
   .modal-content {
     font-size: 2vw;
     background-color: #eee;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 10% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 40%; /* Could be more or less, depending on screen size */
-  }
-
-  
+    border-radius: 1rem;
+}
   
   /* The Close Button */
   .close {
@@ -208,6 +210,7 @@ svg {
   border: 2px solid gray;
   font-family: Coldiac;
   transition: transform .2s;
+  border-radius: 1rem;
 }
 
 .openmodal.myBtn:hover {
