@@ -36,9 +36,8 @@
     }
     </script>
   <div id="navbar">
-    <a href=""><i id="moon" class="gg-moon"></i></button></a>
     <a target="_blank" href="https://www.instagram.com/officialblvrd/?hl=en"><img class="insta" src="instagram-logo-bold-pngrepo-com.png" alt=""></a>
-    <a target="_blank" href=""><img class="open-sea" src="Logomark-Transparent White.png" alt=""></a>
+    <a target="_blank" href="https://opensea.io/blvrd"><img class="open-sea" src="Logomark-Transparent White.png" alt=""></a>
     <a target="_blank" href="https://discord.gg/CxdP3PZGAa"><i id="discord" class="fab fa-discord"></i></a>
     <a class="url" href="index.html">COLLECTION</a>
     <a href="Credo.html">CREDO</a>
@@ -47,46 +46,21 @@
     <img class="logo" src="TransparentBLVRD (1).png" alt="">
   </div>
   <h2 id="header">BLVRD</h2>
-  <script>
-    function darkMode() {
-       var element = document.body;
-       element.classList.toggle("dark-mode");
-    }
-  </script>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
   </style>
-  <div id="particle-container">
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
+  <div class="mode-tog"></div>
+  <div class="contain">
+    <div class="dark-mode"></div>
   </div>
+  <script>
+    let modeToggle = document.querySelector('.mode-tog');
+    let darkMode = document.querySelector('.dark-mode');
+
+    modeToggle.addEventListener('click', () =>{
+      darkMode.classList.toggle('active');
+      modeToggle.classList.toggle('active');
+    })
+  </script>
 </body>
