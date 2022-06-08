@@ -38,6 +38,7 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     height: 100vh;
+    margin: 0;
 }
 
 .logo {
