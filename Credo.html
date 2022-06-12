@@ -61,7 +61,7 @@
       world's first digital luxury brand, we seek to
       create the highest quality of nfts to be used
       throughout the metaverse. Our mission
-      statement: "Don't predict the future, Create it"
+      statement: <small>"</small>Don't predict the future, Create it<small>"</small>
       is what fuels our drive for innovation.
     </p>
       <div class="text">
@@ -81,5 +81,15 @@
       darkMode.classList.toggle('active');
       modeToggle.classList.toggle('active');
     })
+
+    jQuery.fn.font = function (str, className) {    
+    var regex = new RegExp(str, "gi");
+
+      return this.each(function () {
+          this.innerHTML = this.innerHTML.replace(regex, function(matched) {return "<span class=\"" + className + "\">" + matched + "</span>";});
+      });
+    };
+
+    $("p").font("\"","font");
   </script>
 </body>
