@@ -25,8 +25,29 @@ body, html {
   text-align: center;
   padding-top: 100px;
   font-size: 210px;
-  text-shadow: 5px 2px#000;
-  color: #FFD700;
+  background: linear-gradient(306deg, #ffd580, #f0a925, #ffe56f, #f6b547);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 body {
@@ -58,8 +79,8 @@ body {
 }
 
 .insta {
-  max-width: 20px;
-  max-height: 100px;
+  max-width: 10px;
+  max-height: 10px;
   mix-blend-mode: difference;
 }
 
@@ -72,22 +93,20 @@ body {
   overflow: hidden;
   background-color: transparent;
   font-family: Coldiac;
-  font-size: 18px;
+  font-size: 0.95vw;
   margin-right: 5%;
 }
 
 /* Navbar links */
 #navbar a {
-  float: right;
-  display: block;
-  color: white;
-  mix-blend-mode: difference;
-  text-align: center;
-  padding: 14px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-decoration: none;
+float: right;
+display: block;
+color: black;
+padding: 14px;
+margin-right: 1.5vw;
+margin-top: 10px;
+margin-bottom: 10px;
+text-decoration: none;
 }
 
 #navbar a:hover {
@@ -97,9 +116,30 @@ body {
 }
 
 #navbar .active {
-  background-color: transparent;
-  border-radius: .5rem;
-  border-style: double;
+  transform: scale(1.1);
+  background: linear-gradient(306deg, #ffd580, #f0a925, #ffe56f, #f6b547);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: gradientslide 17s ease infinite;
+  -moz-animation: gradientslide 17s ease infinite;
+  animation: gradientslide 17s ease infinite;
+}
+
+@-webkit-keyframes gradientslide {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes gradientslide {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes gradientslide {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
 .url {
