@@ -326,6 +326,9 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
   text-decoration: none;
+  background-color: rgba(244, 244, 244, 0.6);
+  opacity: 0.8;
+  border-radius: 1rem;
 }
 
 #navbar a:hover {
