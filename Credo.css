@@ -73,7 +73,7 @@ body {
   margin-bottom: 10px;
   text-decoration: none;
   background-color: rgba(244, 244, 244, 0.6);
-  opacity: 0.8;
+  opacity: 0.7;
   border-radius: 1rem;
 }
 
@@ -92,6 +92,9 @@ body {
     -webkit-animation: gradientslide 17s ease infinite;
     -moz-animation: gradientslide 17s ease infinite;
     animation: gradientslide 17s ease infinite;
+    background-color: rgba(244, 244, 244, 0.6);
+    opacity: 0.7;
+    border-radius: 1rem;
 }
 
 @-webkit-keyframes gradientslide {
@@ -114,11 +117,25 @@ body {
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
+.relativec {
+    position: absolute;
+    margin-left: 40.15%;
+    font-size: 6vw;
+    margin-top: 3.35vw;
+}
+
+.relativeo {
+    position: absolute;
+    margin-left: 55.55%;
+    font-size: 5.8vw;
+    margin-top: -9.9vw;
+}
+
+
 .text {
     font-size: 2.1vw;
     text-align: center;
-    color: white;
-    color: #8d5823;
+    color: black;
     text-transform: lowercase;
 }
 
@@ -139,7 +156,6 @@ h3 {
     text-align: center;
     color: #c0c0c0;
     mix-blend-mode: difference;
-    text-shadow: 2px 2px gray;
 
 }
 
@@ -151,10 +167,10 @@ h3 {
 }
 
 p {
-    margin-top: 70px;
+    margin-top: 2.5vw;
     font-size: 1.8vw;
     text-align: center;
-    color: #8d5823;
+    color: black;
     text-transform: lowercase;
 }
 

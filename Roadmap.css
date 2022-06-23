@@ -346,6 +346,9 @@ p {
     -webkit-animation: gradientslide 17s ease infinite;
     -moz-animation: gradientslide 17s ease infinite;
     animation: gradientslide 17s ease infinite;
+    background-color: rgba(244, 244, 244, 0.6);
+    opacity: 0.7;
+    border-radius: 1rem;
 }
 
 @-webkit-keyframes gradientslide {
