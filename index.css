@@ -75,13 +75,11 @@ body {
 .open-sea {
     max-width: 20px;
     max-height: 100px;
-    mix-blend-mode: difference;
 }
 
 .insta {
   max-width: 10px;
   max-height: 10px;
-  mix-blend-mode: difference;
 }
 
 .dark-mode {
@@ -113,7 +111,12 @@ body {
 }
 
 #navbar a:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  transition-delay: 10ms;
+  text-decoration: underline;
+}
+#navbar .active:hover {
+  transform: scale(1.15);
   transition-delay: 10ms;
   text-decoration: underline;
 }
@@ -156,6 +159,10 @@ body {
   100% {
       opacity: 1;
   }
+}
+
+.fill-current-stroke-current-h-4-w-4 {
+  width: 1.2vw;
 }
 
 /* Page content */
