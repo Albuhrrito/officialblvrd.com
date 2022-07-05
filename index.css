@@ -68,7 +68,6 @@ body {
     width: 3.5%;
     height: auto;
     padding: 7px;
-    mix-blend-mode: difference;
     color: white;
 }
 
@@ -80,6 +79,20 @@ body {
 .insta {
   max-width: 10px;
   max-height: 10px;
+}
+
+#open-sea {
+  border-radius: 2rem !important;
+}
+
+#insta {
+  border-radius: 2rem !important;
+}
+
+#discord {
+  margin-top: 2.1px;
+  color: black;
+  border-radius: 2rem !important;
 }
 
 .dark-mode {
