@@ -157,26 +157,22 @@ svg {
 .launch {
     font-size: 3vw;
     text-align: center;
-    color: gold;
-    text-shadow: 2px 2px#000;
+    color: black;
 }
 .dev {
     font-size: 3vw;
     text-align: center;
-    color: gold;
-    text-shadow: 2px 2px#000;
+    color: black;
 }
 .meta {
     font-size: 3vw;
     text-align: center;
-    color: gold;
-    text-shadow: 2px 2px#000;
+    color: black;
 }
 .exp {
     font-size: 3vw;
     text-align: center;
-    color: gold;
-    text-shadow: 2px 2px#000;
+    color: black;
 }
 
 /* The Modal (background) */
@@ -194,12 +190,7 @@ svg {
     animation:fadeInAnimation .3s;
   }
 
-  .modalimgs {
-    margin-top: -80px;
-    float: right;
-    width: 100%;
-    margin-top: 1%;
-  }
+  
   
   /* Modal Content/Box */
   .modal-content {
@@ -336,14 +327,23 @@ svg {
 p {
     line-height: 1.6;
     width: 100%;
-    font-size: 1.7vw;
+    font-size: 1.4vw;
     text-align: center;
-    font-family: 'Harmattan', sans-serif;
-    letter-spacing: 0.3vw;
-    margin-left: 7%;
+    font-family: Coldiac;
+    letter-spacing: 0.2vw;
+    margin-left: 10%;
     margin-right: 7%;
+    margin-bottom: 2%;
     
 }
+
+.modalimgs {
+    margin-top: -80px;
+    float: right;
+    width: 90%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+  }
 
 @keyframes zoomIn {
     0% {
